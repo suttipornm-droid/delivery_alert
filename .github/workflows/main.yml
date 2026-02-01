@@ -25,5 +25,6 @@ jobs:
           pip install pandas
 
       - name: Run delivery alert
-        run: |
-          python main.py
+  run: |
+    python main.py
+  working-directory: .
